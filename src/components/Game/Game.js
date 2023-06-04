@@ -34,7 +34,7 @@ function Game() {
   const isWinner = () => {
     if (guessResults.length === 0) return false;
     if (guessIndex > NUM_OF_GUESSES_ALLOWED) return false;
-    return !findLoser();    
+    return !findLoser();
   }
 
   const isGameOver = () => {
